@@ -1,4 +1,4 @@
-﻿#include <Windows.h>
+#include <Windows.h>
 #include "MinHook.h"
 
 typedef void(__cdecl* CTimer__Update) ();
@@ -22,6 +22,4 @@ public:
 	~CMain() {
 		MH_Uninitialize();
 	};
-};
-
-CMain plugin;
+}; CMain plugin;
